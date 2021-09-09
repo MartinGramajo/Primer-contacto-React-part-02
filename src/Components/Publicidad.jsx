@@ -8,9 +8,9 @@ export default function Publicidad({ data }) {
         <div>
             <div className="container my-5">
                 <div className="row">
-                    <Image className="forma col-lg-12 col-sm-6 mb-5 m-auto"  src={image}  roundedCircle/>
+                    <Image className="forma col-lg-12 col-sm-6 mt-4 mb-5 m-auto"  src={image}  roundedCircle/>
                     <div className="col-lg-6 col-sm-12 m-auto">
-                        <h2>{titulo }</h2>
+                        <h2>{titulo}</h2>
                         <p className="mt-4"> {descripcion}</p>
                         <Button className="col-lg-12 col-sm-6 m-auto "  variant="warning" size="lg">Learn More</Button>{' '}
                     </div>
