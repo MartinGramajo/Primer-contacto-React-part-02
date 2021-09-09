@@ -6,6 +6,7 @@ import Card from './Components/Card';
 import Publicidad from './Components/Publicidad';
 import Footer from './Components/Footer';
 import React from 'react';
+import TitleCard from './Components/TitleCard';
 
 const servicios = [
   {
@@ -49,6 +50,7 @@ function App() {
       <div>
         <NavBar />
         <Header />
+        <TitleCard />
         <div className="container d-flex flex-wrap">
           {servicios.map((servicio, i) =>
             <Card key={i} data={servicio} />
