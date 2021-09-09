@@ -17,8 +17,8 @@ export default function NavBar() {
                             <Nav.Link href="#action2">Location</Nav.Link>
                             <Nav.Link href="#action2">Carrers</Nav.Link>
                         </Nav>
-                        <Form className="d-flex mr-auto">
-                            <Button variant="warning">Get Scootin</Button>{' '}
+                        <Form >
+                            <Button className="d-flex mr-auto"  variant="warning">Get Scootin</Button>{' '}
                         </Form>
                     </Navbar.Collapse>
                 </Container>
