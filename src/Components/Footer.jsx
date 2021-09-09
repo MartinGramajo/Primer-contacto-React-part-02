@@ -7,9 +7,9 @@ function Footer() {
   return (
     <div className="main-footer mt-5">
       <div className="container">
-        <div className="row">
+        <div className="row ">
           {/* Column1 */}
-          <div className="col">
+          <div className="col d-flex  justify-content-center ">
             <h1 className="list-unstyled">
                           <li> <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /> </a>  </li>
                           <li> <a href="https://twitter.com/home" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faTwitterSquare} /> </a> </li>
@@ -18,7 +18,7 @@ function Footer() {
             </h1>
           </div>
           {/* Column2 */}
-          <div className="col">
+          <div className="col d-flex  justify-content-center">
             <ul className="list-unstyled">
               <li>Contact Us (Central Office)</li>
               <li>P : +1 253-863-8967</li>
@@ -26,7 +26,7 @@ function Footer() {
             </ul>
           </div>
           {/* Column3 */}
-          <div className="col">
+          <div className="col d-flex  justify-content-center">
             <ul className="list-unstyled">
               <li>Scoot Central Office</li>
               <li>3886 Wellington Street</li>
@@ -36,8 +36,8 @@ function Footer() {
         </div>
         <hr />
         <div className="row">
-          <p className="col-sm">
-            &copy;{new Date().getFullYear()} Mogo Company | All rights reserved |
+          <p className="col-sm-12 m-auto d-flex justify-content-center">
+            &copy;{new Date().getFullYear()} | All rights reserved |
             Terms Of Service | Privacy
           </p>
         </div>
