@@ -1,0 +1,9 @@
+.banner {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-simple-blue-light-spot-advertising-background-backgroundblue-backgroundlight-spotsunlighttriangletransparenthand-image_68362.jpg);
+    padding: 50px;
+}
+
+.banner button{
+    background-color: grey;
+    border-radius: 10px;
+}
