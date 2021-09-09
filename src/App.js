@@ -7,6 +7,7 @@ import Publicidad from './Components/Publicidad';
 import Footer from './Components/Footer';
 import React from 'react';
 import TitleCard from './Components/TitleCard';
+import Banner from './Components/Banner';
 
 const servicios = [
   {
@@ -61,6 +62,7 @@ function App() {
             <Publicidad key={i} data={articulo} />
           )}
         </div>
+        <Banner />
         <Footer />
       </div>
     </React.StrictMode>
