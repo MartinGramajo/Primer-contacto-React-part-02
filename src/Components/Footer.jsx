@@ -11,27 +11,27 @@ function Footer() {
           {/* Column1 */}
           <div className="col">
             <h1 className="list-unstyled">
-                          <li> <a href="https://www.facebook.com/" target="_blank"><FontAwesomeIcon icon={faFacebook} /> </a>  </li>
-                          <li> <a href="https://twitter.com/home" target="_blank"> <FontAwesomeIcon icon={faTwitterSquare} /> </a> </li>
-                          <li> <a href="https://ar.linkedin.com/" target="_blank"> <FontAwesomeIcon icon={faLinkedin} /> </a></li>
-                          <li> <a href="https://myaccount.google.com/profile" target="_blank"> <FontAwesomeIcon icon={faGooglePlusSquare} /> </a> </li>
+                          <li> <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /> </a>  </li>
+                          <li> <a href="https://twitter.com/home" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faTwitterSquare} /> </a> </li>
+                          <li> <a href="https://ar.linkedin.com/" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faLinkedin} /> </a></li>
+                          <li> <a href="https://myaccount.google.com/profile" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faGooglePlusSquare} /> </a> </li>
             </h1>
           </div>
           {/* Column2 */}
           <div className="col">
-            <ui className="list-unstyled">
+            <ul className="list-unstyled">
               <li>Contact Us (Central Office)</li>
               <li>P : +1 253-863-8967</li>
               <li>M :Scoot@scoot.com</li>
-            </ui>
+            </ul>
           </div>
           {/* Column3 */}
           <div className="col">
-            <ui className="list-unstyled">
+            <ul className="list-unstyled">
               <li>Scoot Central Office</li>
               <li>3886 Wellington Street</li>
               <li>Toronto, Ontario M9C 3J5</li>
-            </ui>
+            </ul>
           </div>
         </div>
         <hr />

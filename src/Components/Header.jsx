@@ -2,8 +2,8 @@ import './header.css';
 import { Carousel, Button } from 'react-bootstrap';
 export default function Header() {
     return (
-        <div>
-            <Carousel>
+        <div className=" container col-lg-12 col-sm-12">
+            <Carousel >
                 <Carousel.Item>
                     <img
                         className="carouselImg"

@@ -1,6 +1,5 @@
 .carouselImg {
-    display: block;
-    margin: auto;
-    width: 1500px;
-    height: 700px;
+    position: relative;
+    width: 100%;
+    height: 600px;
 }

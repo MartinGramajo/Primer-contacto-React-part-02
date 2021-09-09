@@ -44,17 +44,17 @@ const articulos = [
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <NavBar />
       <Header />
-      <div className="container d-flex">
-        {servicios.map((servicio) => 
-          <Card data={servicio} />
+      <div className="container d-flex flex-wrap">
+        {servicios.map((servicio, i) => 
+          <Card key={i} data={servicio} />
         )}
       </div>
       <div>
-        {articulos.map((articulo) =>
-          <Publicidad data={articulo} />
+        {articulos.map((articulo, i) =>
+          <Publicidad key={i} data={articulo} />
         )}
       </div>
       <Footer />

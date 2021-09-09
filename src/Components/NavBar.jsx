@@ -3,7 +3,7 @@ import { Navbar, Nav, Button, Form, Container } from 'react-bootstrap';
 export default function NavBar() {
     return (
         <div>
-            <Navbar bg="light" variant="light">
+            <Navbar bg="light" variant="light" fixed="top">
                 <Container fluid>
                     <Navbar.Brand href="#">Scoot</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />

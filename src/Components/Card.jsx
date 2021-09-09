@@ -1,16 +1,18 @@
-export default function Card(props) {
+export default function Card({ data }) {
+    const { image, titulo, descripcion } = data;
+
     return (
-        <div className="container py-5">
-            <div className="card" style={{ width: "25rem" }}>
+        <div className="m-auto d-flex text-center">
+            <div className="card my-5 mx-3" style={{ width: "18rem" }}>
                 <img
-                    src={props.data.image} 
-                    class="card-img-top"
+                    src={image} 
+                    className="card-img-top"
                     alt="..."
                 />
                 <div className="card-body text-center">
-                    <h5 className="card-title">{props.data.titulo}</h5>
+                    <h5 className="card-title">{titulo}</h5>
                     <p className="card-text">
-                        {props.data.descripcion}
+                        {descripcion}
                     </p>
                 </div>
             </div>
