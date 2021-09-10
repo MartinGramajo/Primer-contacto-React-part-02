@@ -13,12 +13,12 @@ export default function NavBar() {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="#action1">About</Nav.Link>
-                            <Nav.Link href="#action2">Location</Nav.Link>
-                            <Nav.Link href="#action2">Carrers</Nav.Link>
+                            <Nav.Link href="#action1">Sobre Nosotros</Nav.Link>
+                            <Nav.Link href="#action2">Localizacion</Nav.Link>
+                            <Nav.Link href="#action2">formas de pagos</Nav.Link>
                         </Nav>
                         <Form >
-                            <Button className="d-flex mr-auto"  variant="warning">Get Scootin</Button>{' '}
+                            <Button className="d-flex mr-auto"  variant="warning">Obten tu scooter ya!</Button>{' '}
                         </Form>
                     </Navbar.Collapse>
                 </Container>

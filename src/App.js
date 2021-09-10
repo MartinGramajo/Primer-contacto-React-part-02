@@ -12,36 +12,36 @@ import Banner from './Components/Banner';
 const servicios = [
   {
     image: "https://static.vecteezy.com/system/resources/previews/000/655/090/non_2x/vector-smartphone-games-cartoons.jpg",
-    titulo: "Locate with app",
-    descripcion: "Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away.",
+    titulo: "Localiza con la App",
+    descripcion: "Utilice la aplicación para encontrar el scooter más cercano. Continuamente  estamos colocamos scooters en las áreas con mayor demanda, por lo que una nunca debe estar demasiado lejos de tu camino.",
   },
   {
     image: "https://i.pinimg.com/originals/8b/3c/a5/8b3ca5495cb02bf5b2a9a73e210c065d.jpg",
-    titulo: "Pick your Scooter",
-    descripcion: "We show the most important info for the scooter closest to you. So you know how much charge they have left and can see roughly how much it will cost.",
+    titulo: "Elige tu scooter",
+    descripcion: "Mostramos toda la información  necesaria e importante del scooter más cercano a nuestros usuarios. Para que sepa cuánta carga les queda y puede ver aproximadamente cuánto costará",
   },
   {
     image: "https://image.freepik.com/free-vector/girl-scooter_23-2147704218.jpg",
-    titulo: "Enjoy the ride",
-    descripcion: "Scan the QR code and the bike will unlock. Retract the cable lock, put onn a helmet, and you're off! Always lock bikes away from walkways.",
+    titulo: "Disfruta del viaje",
+    descripcion: "Escanee el código QR y la moticleta se desbloqueará. ¡Quite el candado del cable, póngase el casco y listo!. Siempre tenga todos los cuidados al manejar y respete las señales de transito!.",
   }
 ];
 
 const articulos = [
   {
     image: "https://images.unsplash.com/photo-1598870783716-1c5f0f890aa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80",
-    titulo: "Easy to use riding telemetry",
-    descripcion: "The scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.",
+    titulo: "Contamos con un sistema de Telemetría de conducción fácil de usar",
+    descripcion: "La aplicación Scoot está disponible con telemetría de conducción. Esto significa que puede mostrarle su velocidad promedio, cuánto tiempo ha estado usando el scooter, su distancia de viaje y muchas más cosas, todo en una aplicación fácil de usar.",
   },
   {
     image: "https://images.unsplash.com/photo-1502514276381-1ea51dfe201c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=701&q=80",
-    titulo: "Coming to a city near you",
-    descripcion: "Scoot is available in 4 major cities so far. We're expanding rapidly, so be sure to let us know if you want to see us in your hometown. We're aiming to let our scooters loose on 23 cities over the coming year.",
+    titulo: "Expandiendonos en ciudades",
+    descripcion: "Scoot está disponible en 4 ciudades importantes hasta ahora. Nos estamos expandiendo rápidamente, así que asegúrese de informarnos si desea vernos en su ciudad. Nuestro objetivo es que nuestros scooters se suelten en 23 ciudades durante el próximo año.",
   },
   {
     image: "https://images.unsplash.com/photo-1614260937041-bf8d795cf0bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-    titulo: "Zero hassle payments",
-    descripcion: "Our payment is as easy as one two three. We accept most credit cards and debit cards. You can asol link you PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.",
+    titulo: "Pagos sin complicaciones",
+    descripcion: "Nuestras formas de pago es tan fácil como uno, dos, tres y listo. Aceptamos la mayoría de tarjetas de crédito y débito. También puedes vincular tu cuenta de PayPal dentro de la aplicación. ¿Necesitas pagar más tarde? ¡No hay problema! Puede aplazar el pago hasta un mes.",
   }
 ]
 

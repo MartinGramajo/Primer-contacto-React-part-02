@@ -12,7 +12,7 @@ export default function Publicidad({ data }) {
                     <div className="col-lg-6 col-sm-12 m-auto text-center">
                         <h2>{titulo}</h2>
                         <p className="mt-4"> {descripcion}</p>
-                        <Button className="col-lg-12 col-sm-6 m-auto "  variant="warning" size="lg">Learn More</Button>{' '}
+                        <Button className="col-lg-12 col-sm-6 m-auto "  variant="warning" size="lg">Leer Mas</Button>{' '}
                     </div>
                 </div>
             </div>
