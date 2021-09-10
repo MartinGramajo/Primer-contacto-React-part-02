@@ -24,7 +24,7 @@ function Footer() {
         </div>
         <div className="row">
           <p className="col-sm-12 m-auto d-flex justify-content-center">
-            &copy;{new Date().getFullYear()} | Todos los derechos reservados | Mago company 2021
+            &copy;{new Date().getFullYear()} | Todos los derechos reservados | Mago company 
           </p>
         </div>
       </div>
