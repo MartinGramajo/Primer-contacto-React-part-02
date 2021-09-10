@@ -18,7 +18,7 @@ export default function Banner() {
               <FontAwesomeIcon className="fs-1 mx-1" icon={faApple} />
             </div>
           </Button>
-          <Button className="my-5 mx-5 p-2" variant="outline-dark">
+          <Button className="my-5 mx-5 p-2"variant="outline-dark">
             <span className="text-white">Disponible en GooglePlay </span>
             <div>
               <FontAwesomeIcon className="fs-1 mx-1" icon={faGooglePlay} />
