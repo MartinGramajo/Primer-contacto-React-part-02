@@ -5,7 +5,7 @@ import { faMotorcycle } from '@fortawesome/free-solid-svg-icons'
 
 export default function TitleCard() {
     return (
-        <div className="container mt-5 title-card">
+        <div className="container mt-5 title-card" id="services">
             <h1>Nuestros Servicios</h1>
             <FontAwesomeIcon className="fs-1" icon={faMotorcycle} />
         </div>

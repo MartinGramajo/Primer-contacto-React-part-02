@@ -5,7 +5,7 @@ import { Image, Button } from 'react-bootstrap'
 export default function Publicidad({ data }) {
     const { image, titulo, descripcion } = data;
     return (
-        <div>
+        <div id="location">
             <div className="container my-5">
                 <div className="row">
                     <Image className="forma col-lg-12 col-sm-6 mt-4 mb-5 m-auto"  src={image}  roundedCircle/>

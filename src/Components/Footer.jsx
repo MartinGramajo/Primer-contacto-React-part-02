@@ -11,13 +11,13 @@ function Footer() {
         <div className="row text-white d-flex justify-content-evenly">
           <Nav className=" justify-content-center">
             <Navbar.Brand href="#"> <FontAwesomeIcon icon={faMotorcycle} /> Scoot</Navbar.Brand>
-            <Nav.Link href="#action1">Sobre nosotros</Nav.Link>
-            <Nav.Link href="#action2">localizacion</Nav.Link>
-            <Nav.Link href="#action2">Formas de pago</Nav.Link>
+            <Nav.Link href="#about">Sobre nosotros</Nav.Link>
+            <Nav.Link href="#services">Servicios</Nav.Link>
+            <Nav.Link href="#location">Localizacion</Nav.Link>
             <div className=" d-flex m-auto mx-5 mb-1 fs-1 ">
-              <Nav.Link href="#action1"><FontAwesomeIcon icon={faFacebook} /></Nav.Link>
-              <Nav.Link href="#action1"><FontAwesomeIcon icon={faTwitter} /></Nav.Link>
-              <Nav.Link href="#action1"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
+              <Nav.Link href="https://www.facebook.com/" target="_blank"><FontAwesomeIcon icon={faFacebook} /></Nav.Link>
+              <Nav.Link href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faTwitter} /></Nav.Link>
+              <Nav.Link href="https://www.instagram.com/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
           </div>
           </Nav>
           <hr />

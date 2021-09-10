@@ -13,9 +13,9 @@ export default function NavBar() {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href="#action1">Sobre Nosotros</Nav.Link>
-                            <Nav.Link href="#action2">Localizacion</Nav.Link>
-                            <Nav.Link href="#action2">formas de pagos</Nav.Link>
+                            <Nav.Link href="#about">Sobre Nosotros</Nav.Link>
+                            <Nav.Link href="#services">Servicios</Nav.Link>
+                            <Nav.Link href="#location">Localizacion</Nav.Link>
                         </Nav>
                         <Form >
                             <Button className="d-flex mr-auto"  variant="warning">Obten tu scooter ya!</Button>{' '}

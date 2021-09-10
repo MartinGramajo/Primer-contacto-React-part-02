@@ -2,7 +2,7 @@ import "./header.css";
 import { Carousel, Button } from "react-bootstrap";
 export default function Header() {
   return (
-    <div className=" container col-lg-12 col-sm-12">
+    <div className=" container col-lg-12 col-sm-12" id="about">
       <Carousel>
         <Carousel.Item>
           <img
